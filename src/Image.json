@@ -1,0 +1,10 @@
+[
+    {
+      "S.no": 1,
+      "imageUrl": "https://example.com/photo1.jpg",
+      "rating": 4.5,
+      "location": "City A",
+      "gallery": "Nature",
+      "description": "Beautiful sunset over the mountains"
+    }
+]

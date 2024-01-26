@@ -1,0 +1,90 @@
+/* Nav.css */
+
+.navbar {
+  /* background-color: rgba(33, 50, 50, 0.641); */
+    /* backdrop-filter: blur(1.5px); */
+    color: rgb(255, 0, 0);
+    /* padding: 15px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: large;
+    position:absolute;
+    z-index: 1;
+    width:100vw;
+    top:0;
+    height: 62px;
+    
+
+  }
+  
+.navAll{
+  background-color: #00000000;
+  /* backdrop-filter: blur(1.5px); */
+  color: rgb(255, 0, 0);
+  position:absolute;
+  z-index: 1;
+  width:100vw;
+  top:0;
+}  
+
+.drop{
+  top:62px;
+  position: absolute;
+  backdrop-filter: blur(2px);
+  right:12%;
+  border-radius: 4px;
+  border-color: aliceblue;
+  /* background-color: rgba(33, 50, 50, 0.641); */
+  font-family: 'Comfortaa', sans-serif;
+  font-size: medium;
+
+}
+.BrandIcon {
+    position :absolute;
+    background-color: rgba(0, 0, 255, 0);
+    width :100px;
+    display : flex;
+    justify-content: space-between;
+    left :5%;
+    height: 61px;
+    align-items: center;
+    
+}  
+  
+  .navItems {
+    list-style: none;
+    display: flex;
+    height: 61px;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    transition: color 0.3s; /* Add a smooth transition for color change */
+  }
+
+  a:hover {
+   
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+  }
+
+
+  
+  .dropG {
+    height:61px;
+    top:17px;
+    position: relative;
+  }
+  
+  
+  
+  
+  

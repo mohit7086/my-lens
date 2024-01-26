@@ -1,0 +1,11 @@
+li {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    transition: color 0.3s; /* Add a smooth transition for color change */
+  }
+
+  li:hover {
+   
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+  }

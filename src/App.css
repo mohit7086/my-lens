@@ -1,0 +1,30 @@
+
+
+.main {
+    /* background-image: url('https://img.playbook.com/vUJYv5jTKLH6sSzyxW74aBFLOH98ruEHKWh_M-YgG28/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I3YmRhZjBk/LTg1NzItNDU4OC1i/OWJlLTEyNTI5YWUw/OTBmOQ'); */
+    /* Add other background properties if needed */
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set a height to ensure the background covers the entire viewport */
+  }
+
+
+
+  
+  /* Hide the scrollbar for Webkit browsers (Chrome, Safari) */
+  body::-webkit-scrollbar {
+    width: 0.0em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  .body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
