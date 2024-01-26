@@ -4,7 +4,7 @@ import Parlx from "./Parlx";
 // import main2 from "../Sun2.jpg"
 
 const mainI =
-  "https://img.playbook.com/qxx7Unq2gfX-7sun-7TH8T3TSN9jThsk5zkq-B0-yms/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzQ3MGMzN2I4/LTU1NDktNDQ3Mi1h/YjFhLWI4Mjg1YThm/NjVjZg";
+  "https://img.playbook.com/_ri3Q0TeErPlgkqwUtESGA3RAGlEhRHW5JpGJLXSS8M/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I2Yzc3NGZh/LTExMjMtNGI0OS04/Y2IyLTRjMzZmNDc4/MTEyNA";
 
 function About() {
   return (
@@ -24,6 +24,7 @@ function About() {
           backgroundColor: "rgba(128, 128, 128, 0.564)",
           bordeRadius: "5px ",
           padding: "10px",
+          top:"180vh"
         }}
       >
         Exquisite Amid the Extraordinary Aarzoo Khurana, is a Wildlife

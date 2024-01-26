@@ -19,14 +19,14 @@ function Profile() {
 
   return (
     <>
-      <div className="container" style={{ height: "90vh", padding: "20px" }}>
+      <div className="container" style={{ padding: "20px", width:"100vw" }}>
         <div
           className="lower-div"
           style={{
             height: lowerDivHeight,
             //   backgroundColor: "yellow",
             aspectRatio: "1.99",
-            left: "50%",
+            left: "55%",
             position: "relative",
             transform: "translate(-50%) ",
             backgroundSize: "cover",
@@ -43,16 +43,17 @@ function Profile() {
               height: "90%",
               // backgroundColor: "blue",
               padding: "20px",
+              
             }}
           >
             <img
-              src="https://img.playbook.com/G1AWnzTei2AdedYBM4FHkXMthi-gdw6b_taFwcvQP08/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2RiY2EyYjZl/LWQ5NjYtNDU5OC1i/YWZiLWMwMGVkNDVh/OTVjMQ"
+              src="https://img.playbook.com/4ZqFRhaC2JR46PvYDsyUTbfa4B7WUFjVVNkvpuBAMwY/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2VjNzM2N2Mw/LTE1ZTUtNDYyNS1i/MDcxLWZjMGEwZDBj/MTI4NQ"
               alt="profile"
               style={{
-                width: "30%",
+                width: "45%",
                 height: "auto",
                 position: "absolute",
-                left: "50%",
+                left: "55%",
                 transform: "translate(-50%)",
                 filter: "drop-shadow(0 0 0.76rem gray)",
               }}
