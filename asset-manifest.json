@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-lens/static/css/main.2c54ccd4.css",
+    "main.js": "/my-lens/static/js/main.6b0f44f6.js",
+    "static/js/787.0098b94c.chunk.js": "/my-lens/static/js/787.0098b94c.chunk.js",
+    "static/media/MyLogo.png": "/my-lens/static/media/MyLogo.e08708579996609fad22.png",
+    "index.html": "/my-lens/index.html",
+    "main.2c54ccd4.css.map": "/my-lens/static/css/main.2c54ccd4.css.map",
+    "main.6b0f44f6.js.map": "/my-lens/static/js/main.6b0f44f6.js.map",
+    "787.0098b94c.chunk.js.map": "/my-lens/static/js/787.0098b94c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c54ccd4.css",
+    "static/js/main.6b0f44f6.js"
+  ]
+}
