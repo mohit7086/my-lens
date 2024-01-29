@@ -14,8 +14,8 @@ export default function App() {
             style={{ height: "100vh" }} // Set image height to 100vh
           />
           <Carousel.Caption>
-            <h3>Label for first slide</h3>
-            <p>Sample Text for Image One</p>
+            <h3></h3>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
@@ -26,20 +26,32 @@ export default function App() {
             style={{ height: "100vh" }} // Set image height to 100vh
           />
           <Carousel.Caption>
-            <h3>Label for second slide</h3>
-            <p>Sample Text for Image Two</p>
+            <h3></h3>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-            src="https://img.playbook.com/g7lzzrPuhjray9yisGu8pdISAOMzaW-96Hm1FRYCX5U/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzkxMDI4YWMy/LTUyOWQtNGVhZC1i/YmI5LWFlNDg2ZmY0/ODdmMw"
+            src="https://img.playbook.com/5i4bYrqODaktOutDPXhg2egGo5OjWIHPQI8-GyDxb0I/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2YzMDJhNjRj/LWM0NGYtNDAyMC04/MmNlLTNmOWRlNjlm/MTRiNQ"
             alt="Image One"
             style={{ height: "100vh" }} // Set image height to 100vh
           />
           <Carousel.Caption>
-            <h3>Label</h3>
-            <p>Sample T</p>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={1500}>
+          <img
+            className="d-block w-100"
+            src="https://img.playbook.com/VA238oNEP34abPStFirdnmGLLrUMfqKh_wmojxMyfqg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2M5YWZiYWYy/LTFmNmMtNDQ3Zi04/MTkyLTdhZGM2MWQ5/NTgyYw"
+            alt="Image One"
+            style={{ height: "100vh" }} // Set image height to 100vh
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
