@@ -16,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           {/* Define your ImgGallery routes based on your requirements */}
           <Route path="/ImgGallery" element={<ImgGallery />} />
           <Route path="/ImgGallery/:GetGenre" element={<ImgGallery />} />
