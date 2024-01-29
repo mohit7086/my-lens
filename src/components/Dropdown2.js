@@ -10,9 +10,11 @@ export default function Dropdown(props) {
 
   const AlbumStyle = {
     // backgroundColor: "rgba(33, 50, 50, 0.641)",
-    width: "180px",
+    width: "200px",
     position: "absolute",
-    top: `${dropDownHeight * 23}px`,
+    top: `${dropDownHeight * 25}px`,
+    right: "-90%",
+    padding: "5px",
   };
 
   const uniqueAlbums = new Set();

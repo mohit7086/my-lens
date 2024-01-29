@@ -1,0 +1,24 @@
+/* Dropdown.css */
+
+.Genre {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Genre li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Genre li a {
+    color: white; /* Set the color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: lighter;
+    transition: color 0.3s; /* Add a smooth transition for color change */
+  }
+  
+  .Genre li a:hover {
+    text-shadow: 0 0 10px rgb(255, 255, 255); /* Add a text shadow effect */
+  }
+  

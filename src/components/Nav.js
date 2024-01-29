@@ -3,6 +3,7 @@ import "./Nav.css"; // Import your CSS file
 import brandIcon from "../MyLogo.png";
 import Dropdown from "./Dropdown";
 import Dropdown2 from "./Dropdown2";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -21,9 +22,9 @@ const Nav = () => {
   return (
     <>
     <div className="navAll">
-    <div className="navbar">
+    <div className="navbar1">
       
-        <ul className="navItems ">
+        <ul className="navItems1 ">
           <li className="BrandIcon">
             <img
               src={brandIcon}
@@ -37,45 +38,44 @@ const Nav = () => {
               className="brand-icon"
             />
 
-            <a href="/" style={{ paddingLeft: "25px" }}>
+            <Link to="/" style={{ paddingLeft: "25px" }}>
               MyLens
-            </a>
+            </Link>
           </li>
           <li >
-            <a href="/home">Home</a>
+            <Link to="/Home">Home</Link>
           </li>
           <li className="dropG" onMouseEnter={handleShowDropdown} onMouseLeave={handleHideDropdown}>
             <a href="/ImgGallery">Gallery</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a
-              href="https://instagram.com/mr_mohit7086?igshid=OGQ5ZDc2ODk2ZA=="
+            <Link to="https://instagram.com/mr_mohit7086?igshid=OGQ5ZDc2ODk2ZA=="
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-instagram"></i>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="./contact">
+            <Link to="./contact">
               <i className="fa-brands fa-linkedin"></i>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="./contact">
+            <Link to="./contact">
               <i className="fa-brands fa-facebook"></i>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="./contact">
+            <Link to="./contact">
               <i className="fa-solid fa-envelope"></i>
-            </a>
+            </Link>
           </li>
         </ul>
 

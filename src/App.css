@@ -3,7 +3,7 @@
 .main {
     /* background-image: url('https://img.playbook.com/vUJYv5jTKLH6sSzyxW74aBFLOH98ruEHKWh_M-YgG28/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I3YmRhZjBk/LTg1NzItNDU4OC1i/OWJlLTEyNTI5YWUw/OTBmOQ'); */
     /* Add other background properties if needed */
-    background-color: rgb(207, 36, 36);
+    background-color: rgb(0, 0, 0);
     background-size: cover;
     background-position: center;
     height: 100vh; /* Set a height to ensure the background covers the entire viewport */
@@ -27,4 +27,6 @@
   .body{
     overflow-y: hidden;
     overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+
   }

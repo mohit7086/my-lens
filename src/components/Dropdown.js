@@ -1,6 +1,7 @@
 import React from "react";
 import Images from "./Img.json";
 import "./Nav.css";
+import "./Dropdown.css";
 import { useState } from "react";
 import Dropdown2 from "./Dropdown2";
 import { Link } from "react-router-dom";

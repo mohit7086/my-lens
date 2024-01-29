@@ -1,0 +1,54 @@
+.mouse {
+    position: absolute;
+    
+    height: 50px;
+    aspect-ratio: 44/70;
+    background: #000;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wheel {
+    width: 5px; 
+    height: 5px;
+    aspect-ratio: 1/1;
+    background: #ffffff;
+    position: relative;
+    border-radius: 50%;
+    animation: moveUpDown 1.5s infinite linear;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      top: 20%; /* Adjust based on your preference */
+      opacity: 1;
+    }
+    40% {
+      top: 35%; /* Adjust based on your preference */
+      opacity: 0.9;
+    }
+    50% {
+      top: 40%; /* Adjust based on your preference */
+      opacity: 0.7;
+    }
+    60% {
+      top: 45%; /* Adjust based on your preference */
+      opacity: 0.4;
+    }
+    80% {
+      top: 60%; /* Adjust based on your preference */
+      opacity: 0.2;
+    }
+    100% {
+      top: 67%; /* Adjust based on your preference */
+      opacity: 0.1;
+    }
+  }
+  
+  
+  
