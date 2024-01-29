@@ -15,6 +15,8 @@ export default function Dropdown(props) {
     top: `${dropDownHeight * 25}px`,
     right: "-90%",
     padding: "5px",
+    WebkitBackdropFilter: "blur(2px)",
+  backdropFilter: "blur(2px)"
   };
 
   const uniqueAlbums = new Set();

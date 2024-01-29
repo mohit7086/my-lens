@@ -19,8 +19,7 @@
 }
 
 .navAll {
-  background-color: #03ffd9;
-  color: rgb(255, 0, 0);
+  background-color: #03ffd900;
   position: fixed;
   z-index: 999; /* Decreased z-index to ensure it's below the navbar */
   width: 100vw;
@@ -30,15 +29,15 @@
 .drop {
   top: 60px;
     position: absolute;
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
-    right: 17%;
+    /* -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px); */
+    right: 17%; 
     /* border-radius: 4px; */
     border-color: aliceblue;
     font-family: 'Comfortaa', sans-serif;
     font-size: medium;
     width: 200px;
-    /* background-color: aqua; */
+    /* background-color: rgba(40, 56, 56, 0.66); */
 }
 
 .BrandIcon {
@@ -80,7 +79,7 @@ li {
 .dropG {
   background-color: rgba(0, 0, 255, 0);
   height: 70px;
-  bottom: -23px;
+  bottom: -22px;
   position: relative;
 }
 

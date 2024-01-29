@@ -123,7 +123,7 @@ function ImgGallery() {
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
-              mkk
+              <i class="fa-solid fa-l fa-info-circle"></i>
             </div>
             {isHoverIndex === index && setShowDetails ? (
               <div className="overlay" style={{ ...OverlayStyle,
