@@ -41,7 +41,7 @@ export default function Parlx(props) {
   const { BG, Type, Text } = props;
   return (
     <div style={{bottom:"10px"}}>
-      <Parallax strength={-200} bgImage={BG}>
+      <Parallax strength={-150} bgImage={BG}>
         <div className="content" style = {styles.content}>
           <div className="text-content" style = {styles.textContent}>
             <h3 style = {styles.textContentH3}>{Type}</h3>
