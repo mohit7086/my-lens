@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import ImgGallery from './components/ImgGallery';
+import Top from './components/Top';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
     <div className="main">
       <BrowserRouter>
         <Nav />
+        <Top/>
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

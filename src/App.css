@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh; /* Set a height to ensure the background covers the entire viewport */
+    scroll-behavior: smooth;
   }
 
 

@@ -5,6 +5,13 @@ import Carousel from "react-bootstrap/Carousel";
 export default function App() {
   return (
     <div style={{ height: "100vh" }}>
+      <style>
+        {`
+          .carousel-indicators {
+            display: none; /* Hide the default carousel indicators */
+          }
+        `}
+      </style>
       <Carousel fade>
         <Carousel.Item interval={1200}>
           <img
