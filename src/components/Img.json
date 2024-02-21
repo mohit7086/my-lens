@@ -1,4 +1,6 @@
 [
+
+  
   {
     "id": 2,
     "imgsource": "https://img.playbook.com/_ri3Q0TeErPlgkqwUtESGA3RAGlEhRHW5JpGJLXSS8M/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2I2Yzc3NGZh/LTExMjMtNGI0OS04/Y2IyLTRjMzZmNDc4/MTEyNA",
@@ -138,13 +140,7 @@
 },
 
 
-{
-  "id": 39,
-  "imgsource": "https://img.playbook.com/Rn1ydcDMDc8bp39cPz_Ccg0RaNekndYMbNrUaOt5Gzw/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzBlYjdhMjkz/LTI2M2YtNDJiMC04/OWU5LTQxM2FlMGMy/NGMwYw",
-  "caption": "Red-Whiskered Bulbul",
-  "genre": "Wildlife",
-  "Album": "Birds of IIT Tirupati"
-},
+
 {
   "id": 33,
   "imgsource": "https://img.playbook.com/HKYKn5o5ialn9ZV77rY51W7jQN_2jt2mcYzi7_c7rgE/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzlmNDE3ZjM5/LWQ1MjktNDFiYi04/OTVkLWE1ZmI2OTBh/Y2UzYw",
@@ -236,16 +232,11 @@
 
 {
   "id": 42,
-  "imgsource": "",
-  "caption": "Astronomy Odyssey",
-  "genre": "Wildlife",
-  "Album": "Birds of IIT Tirupati"
-},
-{
-  "id": 42,
-  "imgsource": "",
+  "imgsource": "https://img.playbook.com/5_12DBLSajtdcjZejJA4Axnj5hEFO-K7n3Y7WRr-oSQ/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljL2QwNjRiYTVh/LWM1YzYtNDc4My1i/MmE0LTk4ZDU3NmRm/MDU1OA",
+
   "caption": "Astronomy Odyssey",
   "genre": "Wildlife",
   "Album": "Birds of IIT Tirupati"
 }
+
 ]

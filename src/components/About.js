@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./Profile";
 import Parlx from "./Parlx";
+import {motion} from "framer-motion";
 // import main2 from "../Sun2.jpg"
 
 const mainI =
@@ -8,7 +9,12 @@ const mainI =
 
 function About() {
   return (
-    <div className="aboutSec">
+    <motion.div
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    exit={{opacity:0,transition: {duration: 0.6}}}
+    className="aboutSec"
+    >
       {/* <Parlx Type="________ About Me ________" Text="Mohit Kumar" BG={main2} /> */}
       <Parlx Type="________ About Me ________" Text="Mohit Kumar" BG={mainI} />
       <div className="t2" >
@@ -57,7 +63,7 @@ function About() {
         are a dance of light and shadows portraying some of the most engaging
         moments one might witness in the wild.
       </div>
-    </div>
+    </motion.div>
   );
 }
 

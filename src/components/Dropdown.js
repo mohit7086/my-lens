@@ -17,17 +17,14 @@ export default function Dropdown() {
    
   };
 
-  const NGenSet = (i, index) => {
-    setGenres(null);
-    setIndex(null);
-  };
+ 
 
   const showAlbum = true;
 
   const allGenres = Images.map((item) => item.genre);
   const uniqueGenres = [...new Set(allGenres)];
 
-  console.log(uniqueGenres);
+
 
   const list = uniqueGenres.map((item, index) => (
     <li key={index} onMouseEnter={() => GenSet(item, index)}>
