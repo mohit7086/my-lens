@@ -65,12 +65,12 @@ export default function App({ index, Album, Genre }) {
                 style={{
                   // border: "5px solid red",
                   width: "80vw",
-                  height: "80vh",
+                  height: "86vh",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
                   position: "relative",
-                  marginTop: "10vh",
+                  marginTop: "7vh",
                   marginLeft: "10vw",
                 }}
               >
@@ -84,7 +84,7 @@ export default function App({ index, Album, Genre }) {
                     alignItems: "center",
                     maxHeight: "100%",
                     objectFit: "contain",
-                    // boxShadow: "rgb(142 142 142 / 49%) 0px 1px 20px 5px"
+                    boxShadow: "rgb(0 0 0/ 50%) 0px 1px 20px 5px"
                   }}
                 >
                   <img
