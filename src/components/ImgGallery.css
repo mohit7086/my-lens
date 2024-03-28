@@ -1,0 +1,41 @@
+.Gallery {
+    column-count: 3;
+    column-gap: 5px;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.overlay {
+    backdrop-filter: blur(1.9px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 0%;
+    flex-direction: column;
+    font-family: 'Comfortaa', sans-serif;
+    opacity: 0.8;
+    transition: transform 0.5s;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+@media screen and (max-width: 376px) {
+    .Gallery {
+        column-count: 1;
+    }
+    
+}
+@media screen and (min-width:376px ) and (max-width: 750px) {
+    .Gallery {
+        column-count: 2;
+
+    }
+   
+
+    
+}

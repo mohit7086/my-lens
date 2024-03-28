@@ -15,5 +15,5 @@
 }
 
 .Album li a:hover {
-  text-shadow: 0 0 10px rgb(255, 255, 255); /* Add a text shadow effect */
+  text-shadow: 0 0 5px rgba(16, 3, 3, 0.562); /* Add a text shadow effect */
 }

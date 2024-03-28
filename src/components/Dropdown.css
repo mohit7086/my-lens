@@ -19,6 +19,6 @@
   }
   
   .Genre li a:hover {
-    text-shadow: 0 0 10px rgb(255, 255, 255); /* Add a text shadow effect */
+    text-shadow: 0 0 5px rgba(151, 150, 150, 0.713); /* Add a text shadow effect */
   }
   

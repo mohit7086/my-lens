@@ -13,7 +13,7 @@
   font-size: large;
   position: fixed;
   z-index: 1000;
-  width: 100vw;
+  width: 100vw;   /*1528px*/  /*1px->0.0654*/
   /* top: 0; */
   height: 60px;
 }
@@ -26,29 +26,33 @@
   top: 0;
 }
 
+
 .drop {
   top: 60px;
-    position: absolute;
-    /* -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px); */
-    right: 17%; 
-    /* border-radius: 4px; */
-    border-color: aliceblue;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: medium;
-    width: 200px;
-    /* background-color: rgba(40, 56, 56, 0.66); */
+  position: absolute;
+  right: 18.9vw;
+  border-color: aliceblue;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: medium;
+  width: 180px;
+  background-color: rgba(40, 56, 56, 0);
 }
+
 
 .BrandIcon {
   position: absolute;
   background-color: rgba(0, 0, 255, 0);
-  width: 100px;
+  width: 86px;
   display: flex;
   justify-content: space-between;
   left: 5%;
   height: 61px;
   align-items: center;
+}
+
+.navItems1 .BrandIcon a {
+  margin-left:1vw;
+  /* color:rgba(89, 149, 129, 0) */
 }
 
 .navItems1 {
@@ -58,8 +62,9 @@
   align-items: center;
 }
 
+
 li {
-  margin-right: 30px;
+  
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -69,6 +74,8 @@ li {
   color: rgb(255, 255, 255);
   font-weight: lighter;
   transition: color 0.3s;
+  margin-right: 2.00vw;
+  
 }
 
 .navItems1 a:hover {
@@ -101,3 +108,9 @@ li {
   transition: color 0.4s ease-in; /* Include text-decoration in the transition */
 }
 
+@media screen and (max-width: 940px) {
+  .drop {
+    right: 20vw;
+    background-color: royalblue;
+  }
+}

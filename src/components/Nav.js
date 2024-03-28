@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./Nav.css"; // Import your CSS file
 import brandIcon from "../MyLogo.png";
 import Dropdown from "./Dropdown";
+import { useEffect } from "react";
 
 const Nav = () => {
   const location = useLocation();
@@ -15,6 +16,8 @@ const Nav = () => {
   const handleHideDropdown = () => {
     setShowDropdown(false);
   };
+
+  
 
   return (
     <>
@@ -36,7 +39,7 @@ const Nav = () => {
               <Link
                 
                 to="/"
-                style={{ paddingLeft: "25px" }}
+                // style={{ paddingLeft: "25px" }}
               >
                 MyLens
               </Link>

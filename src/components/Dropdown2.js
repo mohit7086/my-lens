@@ -13,7 +13,7 @@ export default function Dropdown(props) {
     width: "200px",
     position: "absolute",
     top: `${dropDownHeight * 25}px`,
-    right: "-90%",
+    // right: "-90%",
     padding: "5px",
     WebkitBackdropFilter: "blur(2px)",
   backdropFilter: "blur(2px)"

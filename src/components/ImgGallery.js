@@ -5,30 +5,14 @@ import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import ImgViewer from "./ImgViewer";
 
+import "./ImgGallery.css";
 const GalleryStyle = {
-  columnCount: 3,
-  columnGap: "5px",
-  position: "relative",
-  top: "5px",
-  marginLeft: "5px", // Add left margin
-  marginRight: "5px",
+ 
+ 
 };
 
 const OverlayStyle = {
-  backdropFilter: "blur(1.9px)",
-  height: "100%",
-  width: "100%",
-  position: "absolute",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  color: "white",
-  top: "0%",
-  flexDirection: "column",
-  fontFamily: "'Comfortaa', sans-serif",
-  opacity: "0.8",
-  transition: "transform 0.5s",
-  backgroundColor: "rgba(0,0,0,0.4) ",
+  
 };
 
 function ImgGallery() {
@@ -149,7 +133,7 @@ function ImgGallery() {
             zIndex: "1000000",
             backgroundColor: "rgba(106 105 105 / 81%)",
             backdropFilter: "blur(15px)",
-            // border: "5px solid red",
+            // border: "5px solid blue",
           }}
         > 
           <motion.div

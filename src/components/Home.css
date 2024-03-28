@@ -1,0 +1,53 @@
+.Contain  {
+    height: 100vh;
+    display: flex;
+}
+
+.content1{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    
+}
+.Contain img {
+    /* height: 100%; */
+    width: 100vw;
+    object-fit: cover;
+   
+}
+
+.info {
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0);
+    bottom:10vh;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.677);
+    text-align: center;
+    /* background-color: rgba(200, 200, 200, 0.424); */
+    padding : 2px;
+}
+
+
+  @media screen  and (max-width: 1090px) {
+    .content1 {
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Contain {
+        height:  50vw;
+    }
+    
+    .Contain img {
+        height:  50vw;
+    }
+    .info {
+        bottom: calc(50vh - 20vw);
+        font-size: 20px;
+    }
+    
+  }

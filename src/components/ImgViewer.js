@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import { motion } from "framer-motion";
 import Images from "./Img.json";
+import "./ImgViewer.css"
 
 export default function App({ index, Album, Genre }) {
   const [IMG, setIMG] = useState(Images);
@@ -43,16 +44,8 @@ export default function App({ index, Album, Genre }) {
             display: none;
           }
           
-          .h-80 {
-    height: 80vh/* 320px */;
-}
-
-.carousel-control-prev{
-  width: 10vw;
-}
-.carousel-control-next{
-  width: 10vw;
-}
+          
+]
         `}
       </style>
       <Carousel fade>
@@ -64,14 +57,7 @@ export default function App({ index, Album, Genre }) {
                 className="contain"
                 style={{
                   // border: "5px solid red",
-                  width: "80vw",
-                  height: "86vh",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  position: "relative",
-                  marginTop: "7vh",
-                  marginLeft: "10vw",
+                  
                 }}
               >
                 <motion.div
@@ -79,16 +65,11 @@ export default function App({ index, Album, Genre }) {
                   className="cont"
                   style={{
                     // border: "5px solid yellow",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    maxHeight: "100%",
-                    objectFit: "contain",
-                    boxShadow: "rgb(0 0 0/ 50%) 0px 1px 20px 5px"
+                    
                   }}
                 >
                   <img
-                    className="d-block h-80 "
+                    className="d-block  "
                     src={Img.imgsource}
                     alt={`Slide ${Index + 1}`}
                     style={{
