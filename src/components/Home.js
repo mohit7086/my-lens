@@ -25,7 +25,7 @@ export default function App() {
       style={{ height: "100vh" }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0, transition: { duration: 0.6 } }}
+      exit={{ opacity: 0, transition: { duration: 0.7 } }}
     >
       <style>
         {`
@@ -37,7 +37,7 @@ export default function App() {
       <Carousel fade>
         {images.map((item) => (
           
-          <Carousel.Item key={item.id} interval={1200}>
+          <Carousel.Item key={item.id} >
           <div className="content1">
           <div className="Contain">
             <img
@@ -47,9 +47,7 @@ export default function App() {
               
             />
             </div>
-            <div className="info">
-              {item.info}
-            </div>
+           
           </div>
           
             

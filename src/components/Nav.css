@@ -4,7 +4,7 @@
 /* Nav.css */
 
 .navbar1 {
-  background-color: rgba(255, 0, 0, 0);
+  /* background-color: rgba(255, 0, 0, 0); */
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: right;
@@ -19,7 +19,7 @@
 }
 
 .navAll {
-  background-color: #03ffd900;
+  background-color: #00ffd9;
   position: fixed;
   z-index: 999; /* Decreased z-index to ensure it's below the navbar */
   width: 100vw;
@@ -56,10 +56,11 @@
 }
 
 .navItems1 {
-  list-style: none;
+  /* list-style: none; */
   display: flex;
   height: 61px;
   align-items: center;
+  /* width: 100vw; */
 }
 
 
@@ -108,9 +109,100 @@ li {
   transition: color 0.4s ease-in; /* Include text-decoration in the transition */
 }
 
+.socials{
+  display: flex;
+  justify-content: space-between;
+  /* width: 100px; */
+  /* margin-right: 1vw; */
+
+}
+
+.activeT{
+  display : none;
+}
+.not-activeT{
+  display : none;
+}
+
+
 @media screen and (max-width: 940px) {
   .drop {
     right: 20vw;
-    background-color: royalblue;
+    background-color: rgba(65, 105, 225, 0);
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  .navAll{
+    background-color: rgba(234, 232, 97, 0);
+    height: 100vh;
+  }
+  .navbar1{
+    /* display : block; */
+    flex-direction: column;
+    width: 100vw;
+    /* justify-content: flex-start; */
+    
+    
+  }
+  .navItems1{
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(21, 21, 171, 0);
+    margin:0px;
+    padding:0px;
+    position: relative;
+    /* display: none; */
+    
+    
+  }
+  .topIcons .BrandIcon{
+    position : relative;
+    padding: 0px;
+    left:45%
+    /* width:20vw; */
+  }
+  .navItems1 li{
+    padding : 20px;
+  }
+
+  .dropG {
+    background-color: rgba(21, 21, 171, 0);
+    height: 60px;
+    bottom: 0px;
+    top:-5px;
+    
+    /* position: absolute; */
+  }
+  .socials {
+    padding: 0px;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 10%;
+    width: 100vw;
+  }
+  .topIcons{
+    margin: 0px;
+    padding:0px;
+    width: 100vw;
+    display: flex;
+    /* display: none; */
+    background-color: rgba(143, 36, 36, 0);
+  }
+  
+  .activeT{
+    display : block;
+  }
+  .not-activeT{
+    display : block;
+  }
+
+
+}
+
+
